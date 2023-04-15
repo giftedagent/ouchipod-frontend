@@ -42,11 +42,14 @@ sudo n stable
 
 ■ 本リポジトリを入れるディレクトリに移動
 
-■ Expo CLIのインストール: コマンドプロンプトまたはターミナルを開いて、以下のコマンドを実行してExpo CLIをインストールします。
-npm install -g expo-cli
-
 ■ 本リポジトリをクローン
 git clone git@github.com:giftedagent/ouchipod-frontend.git
+
+■ リポジトリ内に移動
+cd ouchipod-frontend
+
+■ Expo CLIのインストール: コマンドプロンプトまたはターミナルを開いて、以下のコマンドを実行してExpo CLIをインストールします。
+npm install -g expo-cli
 
 ■ Expoの開発サーバーの起動
 expo start
